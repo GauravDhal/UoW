@@ -18,8 +18,7 @@ for i in range(1,n):
         prime = prime_check(num)
         if prime:
             dot(5,"blue")
-        else:
-            dot(3, "black")
+       
         forward(10)
     left(90)
     
@@ -28,8 +27,7 @@ for i in range(1,n):
         prime = prime_check(num)
         if prime:
             dot(5, "blue")
-        else:
-            dot(3, "black")
+     
         forward(10)
     left(90)
     
