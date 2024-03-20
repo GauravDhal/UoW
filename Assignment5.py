@@ -27,7 +27,7 @@ for i in range(1,n):
         num+=1
         prime = prime_check(num)
         if prime:
-            dot(7, "blue")
+            dot(5, "blue")
         else:
             dot(3, "black")
         forward(10)
